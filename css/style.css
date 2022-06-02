@@ -202,8 +202,7 @@ a {
 }
 
 .new-nav nav ul li a {
-  color: white;
-  background-image: linear-gradient(to left, #22213d, #39386b);
+  color: var(--text-color);
   font-size: 18px;
   text-transform: uppercase;
   padding: 7px 13px;
@@ -213,8 +212,7 @@ a {
 }
 
 .new-nav nav ul li:hover a {
-  color: var(--text-color);
-  font-stretch: 150%;
+  color:white;
 }
 
 .checkbtn {
