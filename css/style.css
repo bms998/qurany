@@ -195,12 +195,15 @@ a {
 
 .new-nav nav ul li a {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   padding: 7px 13px;
   font-weight: bold;
   border-radius: 8px 4px;
   transition: 0.7s;
+}
+.new-nav nav ul li:hover a {
+  color: #f2d371;
 }
 
 .checkbtn {
@@ -243,9 +246,7 @@ a {
     font-size: 20px;
   }
 
-  .new-nav nav ul li a:hover {
-    color: #ca3f3f;
-  }
+
 
   #check:checked~ul {
     right: 5%;
@@ -300,6 +301,7 @@ a {
 
 .content .container ul li a:hover {
   border-radius: 30px 70px;
+  color: #f2d371;
 }
 
 /* End Page Content */
